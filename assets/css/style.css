@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    width: 100vw;
+    height: 50px;
+    color: #fff;
+    display: flex;
+    padding: 0px 100px;
+    align-items: center;
+    background: #022D7C;
+    justify-content: space-between;
+}
