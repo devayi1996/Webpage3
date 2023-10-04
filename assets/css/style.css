@@ -3,7 +3,8 @@
     padding: 0px;
     box-sizing: border-box;
 }
-header{
+/* Header Section Start */
+    header{
     width: 100vw;
     height: 50px;
     color: #fff;
@@ -12,8 +13,10 @@ header{
     align-items: center;
     background: #022D7C;
     justify-content: space-between;
-}
-.banner{
+    }
+/* /Header Section End */
+/* Banner Section Start */
+    .banner{
     width: 100%;
     height: 600px;
     color: #fff;
@@ -24,7 +27,7 @@ header{
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
     url(../img/Industrial.jpg);
     background-size: cover;
-}
+    }
 .banner h1{
     font-size: 55px;
     font-weight: normal;
@@ -47,3 +50,58 @@ header{
     margin: 7px;
     height: 50px;
 }
+/* /Banner Section End */
+/* Our Feature Section Start */
+    .feature{
+        width: 100%;
+        height: auto;
+        display: flex;
+        color: #022D7C;
+        padding: 60px 100px;
+        justify-content: space-between;
+     }
+     .feature div{
+        width: 30%;
+        height: 400px;
+     }
+.feature div h2{
+    font-size: 30px;
+    margin-bottom: 7px;
+}
+.feature div img{
+    width:280px ;
+    height: 250px; ;
+}
+.feature div p{
+    margin-top: 5px;
+    font-size: 18px;
+    text-align: justify;
+}
+/* /Our Feature Section End */
+/* About us section start */
+.about{
+    width: 100%;
+    height: auto;
+    color: #fff;
+    text-align: center;
+    padding: 60px 300px;
+    background: #022D7C;
+}
+.about h2{
+    font-size: 33px;
+    margin-bottom: 7px;
+}
+.about p{
+    font-size: 18px;
+    font-weight: normal;
+}
+.about button{
+    color: #fff;
+    background: #022D7C;
+    font-weight: bold;
+    border: 2px solid #fff;
+    padding: 15px 120px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+/* / About  us section End */
