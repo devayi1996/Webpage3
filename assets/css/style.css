@@ -75,7 +75,7 @@
 .feature div p{
     margin-top: 5px;
     font-size: 18px;
-    text-align: justify;
+    text-align:justify;
 }
 /* /Our Feature Section End */
 /* About us section start */
@@ -105,3 +105,42 @@
     margin-top: 10px;
 }
 /* / About  us section End */
+/* Our Service Section Start */
+.table{
+    width: 100%;
+    height: auto;
+    padding: 0px 100px;
+}
+.table tr td img{
+    width: 600px;
+    height: 400px;
+}
+
+.table h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+#upper h3,p{
+    margin-left: 100px;
+}
+#lower p{
+   margin-right: 100px;
+   font-size: 18px;
+}
+#lower h3{
+    margin-left: 100px;
+}
+#upper p{
+    font-size: 18px;
+}
+/* /Our Service Section End */
+/* Footer Section Start */
+footer{
+    width: 100%;
+    height: auto;
+    color: #fff;
+    background: #022D7C;
+    padding: 25px 100px;
+   text-align: center;
+}
+/* /Footer Section End */
