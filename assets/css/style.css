@@ -106,33 +106,30 @@
 }
 /* / About  us section End */
 /* Our Service Section Start */
-.table{
+.service{
     width: 100%;
     height: auto;
     padding: 0px 100px;
 }
-.table tr td img{
-    width: 600px;
+.service .upper,.service .lower{
+    display: flex;
+    align-items: center;
+}
+.service .image,.service .content{
+    width: 50%;
+}
+.service .image img{
+    width: 570px; ;
     height: 400px;
 }
-
-.table h3{
-    font-size: 40px;
+.service h3{
     font-weight: bold;
+    font-size: 30px;
 }
-#upper h3,p{
-    margin-left: 100px;
-}
-#lower p{
-   margin-right: 100px;
-   font-size: 18px;
-}
-#lower h3{
-    margin-left: 100px;
-}
-#upper p{
+.service p{
     font-size: 18px;
 }
+ 
 /* /Our Service Section End */
 /* Footer Section Start */
 footer{
